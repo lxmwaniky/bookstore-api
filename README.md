@@ -41,7 +41,12 @@ A **public learning API** built with Go and Gin for testing CRUD operations. Any
 
 ## 🎮 Try It Out
 
-### Get all books
+### 📚 Postman Collection
+**Import our complete Postman collection:** [Bookstore API Documentation](https://documenter.getpostman.com/view/41135500/2sB3BHkow5)
+
+### 🖥️ Command Line Examples
+
+#### Get all books
 ```bash
 curl http://vps.lxmwaniky.me:8080/api/books
 ```
@@ -85,7 +90,7 @@ curl -X DELETE http://vps.lxmwaniky.me:8080/api/books/1
 
 #### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/lxmwaniky/bookstore-api
 cd bookstore-api
 ```
 
@@ -179,6 +184,7 @@ Feel free to:
 - [Gin Framework](https://gin-gonic.com/)
 - [PostgreSQL](https://www.postgresql.org/docs/)
 - [Docker](https://docs.docker.com/)
+- [Postman API Testing](https://documenter.getpostman.com/view/41135500/2sB3BHkow5)
 
 ---
 
